@@ -3,7 +3,7 @@ function validate(e){
     const email=document.getElementById("email").value;
     const pass = document.getElementById("password").value;
      const age = document.getElementById("age").value;
-    const msgBox = document.getElementById("message").value;
+    const msgBox = document.getElementById("message");
     
     let message="";
     if (email ===""){
